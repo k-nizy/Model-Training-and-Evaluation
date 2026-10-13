@@ -1,0 +1,13 @@
+# Dependencies for the Colab notebook and local runs.
+# Colab already ships numpy/pandas/scikit-learn/matplotlib; the notebook's first cell
+# installs anything that is missing.
+
+numpy>=1.26
+pandas>=2.2
+scikit-learn>=1.4
+matplotlib>=3.8
+seaborn>=0.13
+tensorflow>=2.15
+xgboost>=2.0
+wandb>=0.17
+jupyter
